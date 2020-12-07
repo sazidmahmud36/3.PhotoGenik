@@ -1,0 +1,58 @@
+/*
+Theme Name: PhotoGenik
+Theme URI: #
+Author: Sazid Mahmud
+Author URI: https://fb.com/sazidmahmud36
+Description: Photo Gallery Theme
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwenty
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+body{
+    background: #000;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+input{
+    color: #333;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+header input{
+    margin-top: 15px;
+}
+.post{
+    padding: 20px;
+}
+
+.pic{
+    text-align: center;
+}
+.pic img{
+  width: 100%;
+  height: auto;
+}
+footer{
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #333;
+}
+.wp-post-image{
+  padding: 10px;
+
+}
